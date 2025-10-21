@@ -19,11 +19,11 @@ public class Avanzados_11 {
             contador++;
 
             if (intento < numeroSecreto) {
-                System.out.println("El número es mayor ⬆️");
+                System.out.println("El número es mayor");
             } else if (intento > numeroSecreto) {
-                System.out.println("El número es menor ⬇️");
+                System.out.println("El número es menor ");
             } else {
-                System.out.println("🎉 ¡Correcto! Has adivinado el número en " + contador + " intentos.");
+                System.out.println("Has adivinado el número en " + contador + " intentos.");
             }
 
         } while (intento != numeroSecreto);
